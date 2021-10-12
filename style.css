@@ -1,0 +1,67 @@
+body, html {
+  height: 100%;
+
+}
+
+.button{
+  transition-duration: 0.4s;
+  border-radius: 50%;
+  background-color: transparent;
+  color: black;
+  padding: 25px 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 40px;
+}
+button:hover {
+  background-color: grey;
+  color: white;
+}
+#abc{
+  margin-top: 300px;
+  margin-left: 500px;
+}
+#blue, #red, #green{
+  color: black;
+  font-family: cursive;
+  font-size: 20;
+  border-width: 2px;
+  position: relative;
+  top: 20px;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+}
