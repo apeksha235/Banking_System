@@ -76,7 +76,15 @@ $amount =0;
     <link rel="stylesheet" type="text/css" href="style1.css">
     <title>THIS Bank</title>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T5Y271MD51"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-T5Y271MD51');
+</script>
 <body>
 <?php
 include 'includes/header.php';
